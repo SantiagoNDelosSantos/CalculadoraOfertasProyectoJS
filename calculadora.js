@@ -7,7 +7,7 @@ function pedirNombre() {
 
     let nombre = prompt("¿Cuál es tu nombre?")
 
-    alert("Hola " + nombre + ", bienvenido nuestra calculadora de ofertas. Con ella podrás calcular el precio final de un producto o conjunto de productos (Ej. 1: ¿Cuál será el precio final de una lata de gaseosa, en oferta? Ej. 2: ¿Cuál será el precio final de un pack de gaseosas, en oferta?). ")
+    alert("Hola " + nombre + ", bienvenido a nuestra calculadora de ofertas. Con ella podrás calcular el precio final de un producto o conjunto de productos (Ej. 1: ¿Cuál será el precio final de una lata de gaseosa, en oferta? Ej. 2: ¿Cuál será el precio final de un pack de gaseosas, en oferta?). ")
 
     console.log("Calcular el precio final de un producto o conjunto de productos.")
 }
@@ -33,7 +33,7 @@ function resolverCalculoSalida() {
         porcentajeOferta = parseInt(prompt("Atención – El tipo de dato ingresado es incorrecto. Ingrese en valores numéricos, el porcentaje de descuento que tiene la oferta a calcular (No utilizar el signo %)."))
     }
 
-    console.log("El descuesto es del " + porcentajeOferta + "%")
+    console.log("El descuento es del " + porcentajeOferta + "%")
 
     let calcularDescuento = (prompt("¿Desea realizar el cálculo? Responda Si en caso afirmativo y en caso contrario responda No."))
 
